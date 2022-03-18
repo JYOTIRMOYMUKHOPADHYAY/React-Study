@@ -4,14 +4,12 @@ function App() {
   return (
     <div>
       <header >
-       <Recipe title="pasta"
-          ingredients={['flour', 'water']}
-          instructions="Mix ingredients"
-          img="spaghetti.jpg"
-          />
+       <Recipe />
       </header>
     </div>
   );
 }
 
 export default App;
+
+
